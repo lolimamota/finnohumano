@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face{
+    font-family: adventureFont;
+    src: url(adventureFont.ttf);
+}
+
 h1{
-    @font-face {
-        font-family: 'Pieces of Eight Font';
-        src: url("");
-    }
+    font-family: adventureFont;
 }
