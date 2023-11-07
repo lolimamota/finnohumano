@@ -5,10 +5,25 @@
 }
 
 @font-face{
-    font-family: adventureFont;
-    src: url(adventureFont.ttf);
+    font-family: adventureTime;
+    src: url(adventureTime.ttf);
+}
+
+@font-face{
+    font-family: Caribbean;
+    src: url(caribbean.ttf);
 }
 
 h1{
-    font-family: adventureFont;
+    font-family: Caribbean;
+    font-size: 2rem;
+}
+
+h2{
+    font-family: adventureTime;
+    font-size: 2rem;
+}
+
+section{
+    border: solid black 2px;
 }
