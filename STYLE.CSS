@@ -28,7 +28,7 @@ span{
 h1{
     font-family: adventureTime;
     font-size: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 section{
@@ -36,10 +36,72 @@ section{
     height: 450px;
     background-color: #fff;
     border-radius: 100px 100px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .rosto, .olhoD, .olhoE, .boca{
     width: 100px;
     height: 100px;
-    border: solid red 2px;
+}
+
+.olhoD, .olhoE{
+    width: 45px;
+    height: 80px;
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: 80px;
+}
+
+.rosto{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 425px;
+    height: 315px;
+    background-color: #FFE1C9;
+    border-radius: 60%;
+}
+
+.boca{
+    margin-right: 125px;
+    margin-bottom: -90px;
+    position: absolute;
+    bottom: 285px;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: adventureTime;
+    border-color: red;
+}
+
+#email{
+    border-radius: 20px 20px 0 0;
+    border-bottom: none;
+}
+
+#password{
+    border-radius: 0 0 20px 20px;
+    border-top:solid 0.1px black;
+}
+
+.entre{
+    background: linear-gradient(90deg, rgba(28,213,96,1) 8%, rgba(22,218,104,1) 49%, rgba(15,224,113,1) 91%);
+    border-radius: 5px;
+    width: 150px;
+    height: 80px;
+    margin-top: 5rem;
+    font-family: adventureTime;
+    font-size: 2rem;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
